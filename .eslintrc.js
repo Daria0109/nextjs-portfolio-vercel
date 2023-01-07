@@ -24,9 +24,10 @@ module.exports = {
 		'react/jsx-indent': [1, 'tab'],
 		'react/jsx-indent-props': [1, 'tab'],
 		'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
+		'react/jsx-props-no-spreading': 1,
 		'react/react-in-jsx-scope': 0,
 		'react/function-component-definition': [2, {
-			namedComponents: 'arrow-function',
+			namedComponents: ['arrow-function', 'function-declaration'],
 			unnamedComponents: 'arrow-function'
 		}],
 		'react-hooks/rules-of-hooks': 2,

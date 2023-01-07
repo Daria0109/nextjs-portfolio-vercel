@@ -1,8 +1,6 @@
 
-export const AllPostsPage = () => {
-	return (
-		<>
+export const AllPostsPage = () => (
+	<>
 
-		</>
-	);
-};
+	</>
+);

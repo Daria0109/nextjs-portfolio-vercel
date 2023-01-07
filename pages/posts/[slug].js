@@ -1,8 +1,6 @@
 
-export const PostDetailPage = () => {
-	return (
-		<>
+export const PostDetailPage = () => (
+	<>
 
-		</>
-	);
-};
+	</>
+);
