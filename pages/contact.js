@@ -1,6 +1,8 @@
 
-export const ContactPage = () => (
+const ContactPage = () => (
 	<>
 
 	</>
 );
+
+export default ContactPage;

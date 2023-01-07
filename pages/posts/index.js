@@ -1,6 +1,8 @@
 
-export const AllPostsPage = () => (
+const AllPostsPage = () => (
 	<>
 
 	</>
 );
+
+export default AllPostsPage;
