@@ -65,7 +65,8 @@ module.exports = {
 			prop: 'ignore'
 		}],
 		'react/jsx-closing-bracket-location': 1,
-		'react/no-multi-comp': 2,
+		'react/no-multi-comp': 1,
+		'react/no-unstable-nested-components': [2, { allowAsProps: true }],
 		'react/require-default-props': 0,
 		'react/self-closing-comp': [2, {
 			component: true,
