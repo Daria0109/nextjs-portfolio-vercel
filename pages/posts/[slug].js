@@ -1,6 +1,7 @@
-
-export const PostDetailPage = () => (
+const PostDetailPage = () => (
 	<>
 
 	</>
 );
+
+export default PostDetailPage;
