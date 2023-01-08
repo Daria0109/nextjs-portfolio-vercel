@@ -6,7 +6,7 @@ export const Hero = () => (
 		<div className={classes.image}>
 			<Image src="/images/site/hero.jpg" alt="Darya Frontend developer" width={300} height={300} />
 		</div>
-		<h1>Hello, I'm Darya</h1>
-		<p>I'm a frontend React developer.</p>
+		<h1>Hello, my name is Darya. I am a JavaScript developer.</h1>
+		<p>Welcome to my personal blog about Frontend and frontender's Life :)</p>
 	</section>
 );
