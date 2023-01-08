@@ -1,4 +1,4 @@
-name: Deploy website
+name: Deploy_website
 run-name: ${{ github.actor }} is deploying the site 🚀
 
 on:
@@ -40,6 +40,7 @@ jobs:
       - name: Build production project
         run: npm run build
 
+      - name: Deployment to Vercel
       - uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
