@@ -1,7 +1,7 @@
+import Head from 'next/head';
 import { Hero } from '../components/home-page/hero/hero';
 import { FeaturedPosts } from '../components/home-page/featured-posts/featured-posts';
 import { getFeaturedPosts } from '../lib/posts-util';
-import Head from 'next/head';
 
 const HomePage = ({ posts }) => (
 	<>

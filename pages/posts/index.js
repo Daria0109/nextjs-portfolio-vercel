@@ -1,6 +1,6 @@
+import Head from 'next/head';
 import { AllPosts } from '../../components/posts/all-posts/all-posts';
 import { getAllPosts } from '../../lib/posts-util';
-import Head from 'next/head';
 
 const AllPostsPage = ({ posts }) => (
 	<>

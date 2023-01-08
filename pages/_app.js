@@ -1,7 +1,7 @@
 import '../styles/globals.css';
+import Head from 'next/head';
 import { Layout } from '../components/layout/layout';
 import { RequestStatusProvider } from '../providers/request-status/request-status';
-import Head from 'next/head';
 
 export default function App({ Component, pageProps }) {
 	return (

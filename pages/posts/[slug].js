@@ -1,6 +1,6 @@
+import Head from 'next/head';
 import { PostContent } from '../../components/posts/post-detail/post-content/post-content';
 import { getPostData, getPostsFiles } from '../../lib/posts-util';
-import Head from 'next/head';
 
 const PostDetailPage = ({ post }) => (
 	<>
