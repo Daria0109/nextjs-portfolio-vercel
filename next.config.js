@@ -5,20 +5,20 @@ const nextConfig = (phase) => {
 		return {
 			reactStrictMode: true,
 			env: {
-				mongodb_username: 'DaryaShnipava',
-				mongodb_password: '41CXIDronxeVtQgQ',
-				mongodb_cluster: 'cluster0',
-				mongodb_database: 'js-blog-dev'
+				mongodb_username: process.env.db_username,
+				mongodb_password: process.env.db_password,
+				mongodb_cluster: process.env.db_cluster,
+				mongodb_database: process.env.db_database_dev
 			}
 		};
 	}
 	return {
 		reactStrictMode: true,
 		env: {
-			mongodb_username: 'DaryaShnipava',
-			mongodb_password: '41CXIDronxeVtQgQ',
-			mongodb_cluster: 'cluster0',
-			mongodb_database: 'js-blog'
+			mongodb_username: process.env.db_username,
+			mongodb_password: process.env.db_password,
+			mongodb_cluster: process.env.db_cluster,
+			mongodb_database: process.env.db_database
 		}
 	};
 };
